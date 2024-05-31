@@ -8,6 +8,6 @@ public class LaunchBrowser {
 	@Test
 	public void firstTime() {
 		WebDriver driver = new ChromeDriver();
-		Reporter.log("Successfully launched", true);
+		Reporter.log("**************Successfully launched**************", true);
 	}
 }
